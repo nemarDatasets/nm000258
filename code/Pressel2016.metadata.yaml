@@ -1,0 +1,145 @@
+_dataset:
+  class: Pressel2016
+  code: Pressel2016
+  doi: 10.1117/12.2255697
+  interval:
+  - 0
+  - 3
+  n_subjects: 15
+  paradigm: imagery
+acquisition:
+  channel_types:
+    eeg: 6
+  filters:
+    highpass: 2.0
+    lowpass: 45.0
+  hardware: Grass 8-18-36 amplifier + DataTranslation DT9816 ADC
+  line_freq: 50.0
+  montage: standard_1020
+  n_channels: 6
+  sampling_rate: 1024.0
+  sensor_type: EEG
+  sensors:
+  - F3
+  - F4
+  - C3
+  - C4
+  - P3
+  - P4
+data_processed: true
+data_structure:
+  n_trials: varies (~278-424 clean imagined per subject)
+  trials_context: 15 subjects, ~50-70 trials per class before artifact rejection. 10-52% artifact rate across subjects.
+documentation:
+  associated_paper_doi: 10.1117/12.2255697
+  contact_info:
+  - germanpressel@gmail.com
+  country: AR
+  data_url: https://zenodo.org/records/19502780
+  description: Open access database of EEG signals recorded during imagined speech. 15 subjects, 6 channels, 11 classes (5
+    vowels + 6 directional commands). Presented at SIPAIM 2016. 83 citations.
+  doi: 10.1117/12.2255697
+  institution: Universidad Nacional de Entre Rios
+  investigators:
+  - German A. Pressel Coretto
+  - Ivan E. Gareis
+  - Hugo Leonardo Rufiner
+  keywords:
+  - imagined speech
+  - EEG
+  - Spanish
+  - vowels
+  - directional commands
+  - open access database
+  license: other-open
+  publication_year: 2017
+  repository: Zenodo
+experiment:
+  class_labels:
+  - vowel_a
+  - vowel_e
+  - vowel_i
+  - vowel_o
+  - vowel_u
+  - arriba
+  - abajo
+  - adelante
+  - atras
+  - derecha
+  - izquierda
+  events:
+    abajo: 7
+    adelante: 8
+    arriba: 6
+    atras: 9
+    derecha: 10
+    izquierda: 11
+    vowel_a: 1
+    vowel_e: 2
+    vowel_i: 3
+    vowel_o: 4
+    vowel_u: 5
+  hed_tags:
+    abajo: (Sensory-event, Experimental-stimulus, Visual-presentation), (Agent-action, (Imagine, Speak, (Word, (Label/abajo))))
+    adelante: (Sensory-event, Experimental-stimulus, Visual-presentation), (Agent-action, (Imagine, Speak, (Word, (Label/adelante))))
+    arriba: (Sensory-event, Experimental-stimulus, Visual-presentation), (Agent-action, (Imagine, Speak, (Word, (Label/arriba))))
+    atras: (Sensory-event, Experimental-stimulus, Visual-presentation), (Agent-action, (Imagine, Speak, (Word, (Label/atras))))
+    derecha: (Sensory-event, Experimental-stimulus, Visual-presentation), (Agent-action, (Imagine, Speak, (Word, (Label/derecha))))
+    izquierda: (Sensory-event, Experimental-stimulus, Visual-presentation), (Agent-action, (Imagine, Speak, (Word, (Label/izquierda))))
+    vowel_a: (Sensory-event, Experimental-stimulus, Visual-presentation), (Agent-action, (Imagine, Speak, (Phoneme, (Label/a))))
+    vowel_e: (Sensory-event, Experimental-stimulus, Visual-presentation), (Agent-action, (Imagine, Speak, (Phoneme, (Label/e))))
+    vowel_i: (Sensory-event, Experimental-stimulus, Visual-presentation), (Agent-action, (Imagine, Speak, (Phoneme, (Label/i))))
+    vowel_o: (Sensory-event, Experimental-stimulus, Visual-presentation), (Agent-action, (Imagine, Speak, (Phoneme, (Label/o))))
+    vowel_u: (Sensory-event, Experimental-stimulus, Visual-presentation), (Agent-action, (Imagine, Speak, (Phoneme, (Label/u))))
+  mode: offline
+  n_classes: 11
+  paradigm: imagery
+  primary_modality: visual
+  stimulus_modalities:
+  - visual
+  stimulus_type: visual cue
+  study_design: 'Cue-based imagined and pronounced speech of 5 Spanish vowels and 6 directional commands. Two modalities:
+    imagined (silent) and pronounced (vocalized).'
+  synchronicity: synchronous
+  trial_duration: 4.0
+file_format: MAT
+paradigm_specific:
+  detected_paradigm: motor_imagery
+  imagery_duration_s: 4.0
+  imagery_tasks:
+  - vowel_a
+  - vowel_e
+  - vowel_i
+  - vowel_o
+  - vowel_u
+  - arriba
+  - abajo
+  - adelante
+  - atras
+  - derecha
+  - izquierda
+participants:
+  age_max: 28
+  age_min: 24
+  gender:
+    female: 7
+    male: 8
+  health_status: healthy
+  n_subjects: 15
+  species: human
+preprocessing:
+  data_state: preprocessed
+  highpass_hz: 2.0
+  lowpass_hz: 45.0
+  preprocessing_applied: true
+  preprocessing_steps:
+  - Bandpass 2-45 Hz
+runs_per_session: 1
+sessions_per_subject: 1
+tags:
+  modality:
+  - Speech
+  pathology:
+  - Healthy
+  type:
+  - Research

@@ -1,0 +1,40 @@
+{
+    "Name": "Pressel2016",
+    "BIDSVersion": "1.9.0",
+    "HEDVersion": "8.4.0",
+    "DatasetType": "derivative",
+    "License": "other-open",
+    "Authors": [
+        "German A. Pressel Coretto",
+        "Ivan E. Gareis",
+        "Hugo Leonardo Rufiner"
+    ],
+    "ReferencesAndLinks": [
+        "https://zenodo.org/records/19502780",
+        "10.1117/12.2255697"
+    ],
+    "Keywords": [
+        "imagined speech",
+        "EEG",
+        "Spanish",
+        "vowels",
+        "directional commands",
+        "open access database"
+    ],
+    "DatasetDOI": "doi:10.1117/12.2255697",
+    "GeneratedBy": [
+        {
+            "CodeURL": "https://github.com/NeuroTechX/moabb",
+            "Name": "moabb",
+            "Description": "Mother of All BCI Benchmarks",
+            "Version": "1.5.0dev0"
+        }
+    ],
+    "SourceDatasets": [
+        {
+            "DOI": "10.1117/12.2255697",
+            "URL": "https://zenodo.org/records/19502780"
+        }
+    ],
+    "PublicationYear": 2017
+}

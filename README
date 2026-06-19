@@ -1,0 +1,192 @@
+Pressel2016
+===========
+
+Imagined Speech Database - Spanish vowels and commands.
+
+Dataset Overview
+----------------
+  Code: Pressel2016
+  Paradigm: imagery
+  DOI: 10.1117/12.2255697
+  Subjects: 15
+  Sessions per subject: 1
+  Events: vowel_a=1, vowel_e=2, vowel_i=3, vowel_o=4, vowel_u=5, arriba=6, abajo=7, adelante=8, atras=9, derecha=10, izquierda=11
+  Trial interval: [0, 3] s
+  File format: MAT
+  Data preprocessed: True
+
+Acquisition
+-----------
+  Sampling rate: 1024.0 Hz
+  Number of channels: 6
+  Channel types: eeg=6
+  Channel names: F3, F4, C3, C4, P3, P4
+  Montage: standard_1020
+  Hardware: Grass 8-18-36 amplifier + DataTranslation DT9816 ADC
+  Sensor type: EEG
+  Line frequency: 50.0 Hz
+  Online filters: {'highpass': 2.0, 'lowpass': 45.0}
+
+Participants
+------------
+  Number of subjects: 15
+  Health status: healthy
+  Age: min=24, max=28
+  Gender distribution: female=7, male=8
+  Species: human
+
+Experimental Protocol
+---------------------
+  Paradigm: imagery
+  Number of classes: 11
+  Class labels: vowel_a, vowel_e, vowel_i, vowel_o, vowel_u, arriba, abajo, adelante, atras, derecha, izquierda
+  Trial duration: 4.0 s
+  Study design: Cue-based imagined and pronounced speech of 5 Spanish vowels and 6 directional commands. Two modalities: imagined (silent) and pronounced (vocalized).
+  Stimulus type: visual cue
+  Stimulus modalities: visual
+  Primary modality: visual
+  Synchronicity: synchronous
+  Mode: offline
+
+HED Event Annotations
+---------------------
+  Schema: HED 8.4.0 | Browse: https://www.hedtags.org/hed-schema-browser
+
+  vowel_a
+    ├─ Sensory-event, Experimental-stimulus, Visual-presentation
+    └─ Agent-action
+       └─ Imagine
+          ├─ Speak
+          └─ Phoneme
+             └─ Label/a
+
+  vowel_e
+    ├─ Sensory-event, Experimental-stimulus, Visual-presentation
+    └─ Agent-action
+       └─ Imagine
+          ├─ Speak
+          └─ Phoneme
+             └─ Label/e
+
+  vowel_i
+    ├─ Sensory-event, Experimental-stimulus, Visual-presentation
+    └─ Agent-action
+       └─ Imagine
+          ├─ Speak
+          └─ Phoneme
+             └─ Label/i
+
+  vowel_o
+    ├─ Sensory-event, Experimental-stimulus, Visual-presentation
+    └─ Agent-action
+       └─ Imagine
+          ├─ Speak
+          └─ Phoneme
+             └─ Label/o
+
+  vowel_u
+    ├─ Sensory-event, Experimental-stimulus, Visual-presentation
+    └─ Agent-action
+       └─ Imagine
+          ├─ Speak
+          └─ Phoneme
+             └─ Label/u
+
+  arriba
+    ├─ Sensory-event, Experimental-stimulus, Visual-presentation
+    └─ Agent-action
+       └─ Imagine
+          ├─ Speak
+          └─ Word
+             └─ Label/arriba
+
+  abajo
+    ├─ Sensory-event, Experimental-stimulus, Visual-presentation
+    └─ Agent-action
+       └─ Imagine
+          ├─ Speak
+          └─ Word
+             └─ Label/abajo
+
+  adelante
+    ├─ Sensory-event, Experimental-stimulus, Visual-presentation
+    └─ Agent-action
+       └─ Imagine
+          ├─ Speak
+          └─ Word
+             └─ Label/adelante
+
+  atras
+    ├─ Sensory-event, Experimental-stimulus, Visual-presentation
+    └─ Agent-action
+       └─ Imagine
+          ├─ Speak
+          └─ Word
+             └─ Label/atras
+
+  derecha
+    ├─ Sensory-event, Experimental-stimulus, Visual-presentation
+    └─ Agent-action
+       └─ Imagine
+          ├─ Speak
+          └─ Word
+             └─ Label/derecha
+
+  izquierda
+    ├─ Sensory-event, Experimental-stimulus, Visual-presentation
+    └─ Agent-action
+       └─ Imagine
+          ├─ Speak
+          └─ Word
+             └─ Label/izquierda
+
+Paradigm-Specific Parameters
+----------------------------
+  Detected paradigm: motor_imagery
+  Imagery tasks: vowel_a, vowel_e, vowel_i, vowel_o, vowel_u, arriba, abajo, adelante, atras, derecha, izquierda
+  Imagery duration: 4.0 s
+
+Data Structure
+--------------
+  Trials: varies (~278-424 clean imagined per subject)
+  Trials context: 15 subjects, ~50-70 trials per class before artifact rejection. 10-52% artifact rate across subjects.
+
+Preprocessing
+-------------
+  Data state: preprocessed
+  Preprocessing applied: True
+  Steps: Bandpass 2-45 Hz
+  Highpass filter: 2.0 Hz
+  Lowpass filter: 45.0 Hz
+
+Tags
+----
+  Pathology: Healthy
+  Modality: Speech
+  Type: Research
+
+Documentation
+-------------
+  Description: Open access database of EEG signals recorded during imagined speech. 15 subjects, 6 channels, 11 classes (5 vowels + 6 directional commands). Presented at SIPAIM 2016. 83 citations.
+  DOI: 10.1117/12.2255697
+  Associated paper DOI: 10.1117/12.2255697
+  License: other-open
+  Investigators: German A. Pressel Coretto, Ivan E. Gareis, Hugo Leonardo Rufiner
+  Contact: germanpressel@gmail.com
+  Institution: Universidad Nacional de Entre Rios
+  Country: AR
+  Repository: Zenodo
+  Data URL: https://zenodo.org/records/19502780
+  Publication year: 2017
+  Keywords: imagined speech, EEG, Spanish, vowels, directional commands, open access database
+
+References
+----------
+Pressel Coretto, G. A., Gareis, I. E., & Rufiner, H. L. (2017). Open access database of EEG signals recorded during imagined speech. 12th International Symposium on Medical Information Processing and Analysis (SIPAIM 2016), SPIE Proceedings, 10160. https://doi.org/10.1117/12.2255697
+Appelhoff, S., Sanderson, M., Brooks, T., Vliet, M., Quentin, R., Holdgraf, C., Chaumon, M., Mikulan, E., Tavabi, K., Hochenberger, R., Welke, D., Brunner, C., Rockhill, A., Larson, E., Gramfort, A. and Jas, M. (2019). MNE-BIDS: Organizing electrophysiological data into the BIDS format and facilitating their analysis. Journal of Open Source Software 4: (1896). https://doi.org/10.21105/joss.01896
+
+Pernet, C. R., Appelhoff, S., Gorgolewski, K. J., Flandin, G., Phillips, C., Delorme, A., Oostenveld, R. (2019). EEG-BIDS, an extension to the brain imaging data structure for electroencephalography. Scientific Data, 6, 103. https://doi.org/10.1038/s41597-019-0104-8
+
+---
+Generated by MOABB 1.5.0dev0 (Mother of All BCI Benchmarks)
+https://github.com/NeuroTechX/moabb

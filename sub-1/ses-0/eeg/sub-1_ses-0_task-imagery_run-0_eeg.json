@@ -1,0 +1,41 @@
+{
+	"TaskName": "imagery",
+	"Manufacturer": "Grass 8-18-36 amplifier + DataTranslation DT9816 ADC",
+	"PowerLineFrequency": 50.0,
+	"SamplingFrequency": 1024.0,
+	"SoftwareFilters": {
+		"preprocessing_steps": {
+			"Description": "Bandpass 2-45 Hz"
+		}
+	},
+	"RecordingDuration": 2423.9990234375,
+	"RecordingType": "continuous",
+	"EEGReference": "n/a",
+	"EEGGround": "n/a",
+	"EEGPlacementScheme": "10-20 system",
+	"EEGChannelCount": 6,
+	"EOGChannelCount": 0,
+	"ECGChannelCount": 0,
+	"EMGChannelCount": 0,
+	"TriggerChannelCount": 0,
+	"ManufacturersModelName": "Grass 8-18-36 amplifier + DataTranslation DT9816 ADC",
+	"SoftwareVersions": "n/a",
+	"HardwareFilters": {
+		"Bandpass": {
+			"LowCutoffFrequency": 2.0,
+			"HighCutoffFrequency": 45.0
+		}
+	},
+	"TaskDescription": "Cue-based imagined and pronounced speech of 5 Spanish vowels and 6 directional commands. Two modalities: imagined (silent) and pronounced (vocalized). Trial duration: 4.0s, imagery: 4.0s.",
+	"Instructions": "n/a",
+	"CogAtlasID": "https://www.cognitiveatlas.org/task/id/trm_4c8a834779883/",
+	"InstitutionName": "Universidad Nacional de Entre Rios",
+	"InstitutionAddress": "AR",
+	"InstitutionalDepartmentName": "n/a",
+	"CapManufacturer": "n/a",
+	"CapManufacturersModelName": "n/a",
+	"SubjectArtefactDescription": "n/a",
+	"DeviceSerialNumber": "n/a",
+	"Description": "Open access database of EEG signals recorded during imagined speech. 15 subjects, 6 channels, 11 classes (5 vowels + 6 directional commands). Presented at SIPAIM 2016. 83 citations.",
+	"MISCChannelCount": 0
+}

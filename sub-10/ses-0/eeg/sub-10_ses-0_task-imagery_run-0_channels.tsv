@@ -1,0 +1,7 @@
+name	type	units	low_cutoff	high_cutoff	description	sampling_frequency	status	status_description
+F3	EEG	µV	0.0	512.0	ElectroEncephaloGram	1024.0	good	n/a
+F4	EEG	µV	0.0	512.0	ElectroEncephaloGram	1024.0	good	n/a
+C3	EEG	µV	0.0	512.0	ElectroEncephaloGram	1024.0	good	n/a
+C4	EEG	µV	0.0	512.0	ElectroEncephaloGram	1024.0	good	n/a
+P3	EEG	µV	0.0	512.0	ElectroEncephaloGram	1024.0	good	n/a
+P4	EEG	µV	0.0	512.0	ElectroEncephaloGram	1024.0	good	n/a

@@ -1,0 +1,40 @@
+{
+	"onset": {
+		"Description": "Onset (in seconds) of the event from the beginning of the first datapoint. Negative onsets account for events before the first stored data point.",
+		"Units": "s"
+	},
+	"duration": {
+		"Description": "Duration of the event in seconds from onset. Must be zero, positive, or 'n/a' if unavailable. A zero value indicates an impulse event. ",
+		"Units": "s"
+	},
+	"sample": {
+		"Description": "The event onset time in number of sampling points.First sample is 0."
+	},
+	"value": {
+		"Description": "The event code (also known as trigger code or event ID) associated with the event."
+	},
+	"trial_type": {
+		"Description": "The type, category, or name of the event.",
+		"HED": {
+			"vowel_a": "(Sensory-event, Experimental-stimulus, Visual-presentation), (Agent-action, (Imagine, Speak, (Phoneme, (Label/a))))",
+			"vowel_e": "(Sensory-event, Experimental-stimulus, Visual-presentation), (Agent-action, (Imagine, Speak, (Phoneme, (Label/e))))",
+			"vowel_i": "(Sensory-event, Experimental-stimulus, Visual-presentation), (Agent-action, (Imagine, Speak, (Phoneme, (Label/i))))",
+			"vowel_o": "(Sensory-event, Experimental-stimulus, Visual-presentation), (Agent-action, (Imagine, Speak, (Phoneme, (Label/o))))",
+			"vowel_u": "(Sensory-event, Experimental-stimulus, Visual-presentation), (Agent-action, (Imagine, Speak, (Phoneme, (Label/u))))",
+			"arriba": "(Sensory-event, Experimental-stimulus, Visual-presentation), (Agent-action, (Imagine, Speak, (Word, (Label/arriba))))",
+			"abajo": "(Sensory-event, Experimental-stimulus, Visual-presentation), (Agent-action, (Imagine, Speak, (Word, (Label/abajo))))",
+			"adelante": "(Sensory-event, Experimental-stimulus, Visual-presentation), (Agent-action, (Imagine, Speak, (Word, (Label/adelante))))",
+			"atras": "(Sensory-event, Experimental-stimulus, Visual-presentation), (Agent-action, (Imagine, Speak, (Word, (Label/atras))))",
+			"derecha": "(Sensory-event, Experimental-stimulus, Visual-presentation), (Agent-action, (Imagine, Speak, (Word, (Label/derecha))))",
+			"izquierda": "(Sensory-event, Experimental-stimulus, Visual-presentation), (Agent-action, (Imagine, Speak, (Word, (Label/izquierda))))"
+		}
+	},
+	"Description": "Event annotations for imagery task (abajo, adelante, arriba, atras, derecha, izquierda, vowel_a, vowel_e, vowel_i, vowel_o, vowel_u).",
+	"StimulusPresentation": {
+		"StimulusType": "visual cue",
+		"StimulusModalities": [
+			"visual"
+		],
+		"PrimaryModality": "visual"
+	}
+}
