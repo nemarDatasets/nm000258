@@ -1,0 +1,86 @@
+{
+  "version": "2.0",
+  "pipeline_stage": "enriched",
+  "authors": {
+    "German A. Pressel Coretto": {},
+    "Ivan E. Gareis": {},
+    "Hugo Leonardo Rufiner": {}
+  },
+  "related_identifiers": [
+    {
+      "identifier": "10.1117/12.2255697",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/nm000258",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=nm000258",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.21105/joss.01896",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    },
+    {
+      "identifier": "10.1038/s41597-019-0104-8",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    }
+  ],
+  "title": "Pressel2016",
+  "license": "other-open",
+  "dataset_type": "derivative",
+  "resource_type_general": "Dataset",
+  "modalities": [
+    "eeg"
+  ],
+  "resource_type_specific": "EEG Dataset",
+  "sizes": [
+    "379.4 MB (16 files)"
+  ],
+  "formats": [
+    ".edf",
+    ".json",
+    ".tsv",
+    ".yaml",
+    ".yml"
+  ],
+  "description": "An open-access EEG dataset comprising recordings from 15 healthy Spanish-speaking subjects during imagined speech tasks. The dataset includes 11 imagery classes: 5 Spanish vowels and 6 directional commands, acquired using 6-channel EEG at 1024 Hz with preprocessed data (bandpass filtered 2-45 Hz). Trials consist of 4-second periods with a 3-second imagery window occurring within each trial. This resource supports brain-computer interface research and motor imagery classification studies.",
+  "methods_description": "EEG signals were recorded from 15 healthy subjects (age 24-28 years) using a Grass 8-18-36 amplifier with DataTranslation DT9816 ADC. Six channels (F3, F4, C3, C4, P3, P4) were positioned according to the standard 10-20 montage. Sampling rate was 1024 Hz with online bandpass filtering (2-45 Hz). Subjects performed cue-based imagery tasks of 5 Spanish vowels and 6 directional commands in response to visual stimuli, with trial duration of 4 seconds and imagery period of 3 seconds. Data were preprocessed with bandpass filtering and artifact rejection applied.",
+  "keywords": [
+    {
+      "term": "imagined speech"
+    },
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "motor imagery"
+    },
+    {
+      "term": "brain-computer interfaces"
+    },
+    {
+      "term": "BCI"
+    },
+    {
+      "term": "vowel classification"
+    },
+    {
+      "term": "directional commands"
+    },
+    {
+      "term": "Spanish"
+    },
+    {
+      "term": "open access database"
+    }
+  ],
+  "source_hash": "ecba38fe4fffb6a83a0fc90d58d49cfd7a223b4ed6c1b93695b38577442a9ba8"
+}
