@@ -1,11 +1,45 @@
 {
   "version": "2.0",
   "pipeline_stage": "enriched",
+  "title": "Imagined Speech EEG database — Spanish vowels and commands (Pressel et al. 2016)",
+  "description": "An open-access EEG database of imagined speech recordings from 15 healthy Spanish speakers performing motor imagery tasks involving five vowels and six directional commands. The dataset comprises 6-channel EEG signals sampled at 1024 Hz with preprocessing applied (bandpass 2-45 Hz), containing approximately 278-424 artifact-free trials per subject in total across 11 imagery classes. This resource supports brain-computer interface research and speech imagery decoding studies.",
+  "methods_description": "EEG signals were recorded from 15 healthy subjects (7 female, 8 male; age 24-28 years) using a Grass 8-18-36 amplifier with DataTranslation DT9816 ADC. Six electrodes (F3, F4, C3, C4, P3, P4) were positioned according to the standard 10-20 montage. Sampling rate was 1024 Hz with online bandpass filtering (2-45 Hz). Subjects performed cue-based motor imagery tasks of five Spanish vowels and six directional commands in response to visual stimuli, with 4-second trial duration. Data were preprocessed with bandpass filtering (2-45 Hz).",
+  "license": "other-open",
+  "dataset_type": "derivative",
   "authors": {
     "German A. Pressel Coretto": {},
     "Ivan E. Gareis": {},
     "Hugo Leonardo Rufiner": {}
   },
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "motor imagery"
+    },
+    {
+      "term": "imagined speech"
+    },
+    {
+      "term": "brain-computer interfaces"
+    },
+    {
+      "term": "signal processing"
+    },
+    {
+      "term": "Spanish language"
+    },
+    {
+      "term": "vowels"
+    },
+    {
+      "term": "directional commands"
+    },
+    {
+      "term": "open access database"
+    }
+  ],
   "related_identifiers": [
     {
       "identifier": "10.1117/12.2255697",
@@ -33,54 +67,21 @@
       "relation_type": "References"
     }
   ],
-  "title": "Pressel2016",
-  "license": "other-open",
-  "dataset_type": "derivative",
   "resource_type_general": "Dataset",
+  "resource_type_specific": "EEG Dataset",
   "modalities": [
     "eeg"
   ],
-  "resource_type_specific": "EEG Dataset",
   "sizes": [
     "379.4 MB (16 files)"
   ],
   "formats": [
     ".edf",
     ".json",
+    ".md",
     ".tsv",
     ".yaml",
     ".yml"
   ],
-  "description": "An open-access EEG dataset comprising recordings from 15 healthy Spanish-speaking subjects during imagined speech tasks. The dataset includes 11 imagery classes: 5 Spanish vowels and 6 directional commands, acquired using 6-channel EEG at 1024 Hz with preprocessed data (bandpass filtered 2-45 Hz). Trials consist of 4-second periods with a 3-second imagery window occurring within each trial. This resource supports brain-computer interface research and motor imagery classification studies.",
-  "methods_description": "EEG signals were recorded from 15 healthy subjects (age 24-28 years) using a Grass 8-18-36 amplifier with DataTranslation DT9816 ADC. Six channels (F3, F4, C3, C4, P3, P4) were positioned according to the standard 10-20 montage. Sampling rate was 1024 Hz with online bandpass filtering (2-45 Hz). Subjects performed cue-based imagery tasks of 5 Spanish vowels and 6 directional commands in response to visual stimuli, with trial duration of 4 seconds and imagery period of 3 seconds. Data were preprocessed with bandpass filtering and artifact rejection applied.",
-  "keywords": [
-    {
-      "term": "imagined speech"
-    },
-    {
-      "term": "EEG"
-    },
-    {
-      "term": "motor imagery"
-    },
-    {
-      "term": "brain-computer interfaces"
-    },
-    {
-      "term": "BCI"
-    },
-    {
-      "term": "vowel classification"
-    },
-    {
-      "term": "directional commands"
-    },
-    {
-      "term": "Spanish"
-    },
-    {
-      "term": "open access database"
-    }
-  ],
-  "source_hash": "ecba38fe4fffb6a83a0fc90d58d49cfd7a223b4ed6c1b93695b38577442a9ba8"
+  "source_hash": "bccc2168ee7103f26cba68131372b05bf722b52dff112a96695b6f63c5cec8e1"
 }
