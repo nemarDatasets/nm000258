@@ -1,3 +1,5 @@
+[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.nm000258-blue)](https://doi.org/10.82901/nemar.nm000258)
+
 # Imagined Speech EEG database — Spanish vowels and commands (Pressel et al. 2016)
 
 ## Overview
