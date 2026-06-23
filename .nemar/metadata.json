@@ -1,9 +1,9 @@
 {
   "version": "2.0",
-  "pipeline_stage": "enriched",
+  "pipeline_stage": "validated",
   "title": "Imagined Speech EEG database — Spanish vowels and commands (Pressel et al. 2016)",
-  "description": "An open-access EEG database of imagined speech recordings from 15 healthy Spanish speakers performing motor imagery tasks involving five vowels and six directional commands. The dataset comprises 6-channel EEG signals sampled at 1024 Hz with preprocessing applied (bandpass 2-45 Hz), containing approximately 278-424 artifact-free trials per subject in total across 11 imagery classes. This resource supports brain-computer interface research and speech imagery decoding studies.",
-  "methods_description": "EEG signals were recorded from 15 healthy subjects (7 female, 8 male; age 24-28 years) using a Grass 8-18-36 amplifier with DataTranslation DT9816 ADC. Six electrodes (F3, F4, C3, C4, P3, P4) were positioned according to the standard 10-20 montage. Sampling rate was 1024 Hz with online bandpass filtering (2-45 Hz). Subjects performed cue-based motor imagery tasks of five Spanish vowels and six directional commands in response to visual stimuli, with 4-second trial duration. Data were preprocessed with bandpass filtering (2-45 Hz).",
+  "description": "An open-access EEG dataset containing recordings from 15 healthy Spanish-speaking subjects performing imagined speech tasks. The dataset comprises 11 imagery classes (5 Spanish vowels and 6 directional commands) acquired using 6-channel EEG at 1024 Hz with preprocessed data (bandpass filtered 2-45 Hz). This resource supports brain-computer interface research and motor imagery classification studies.",
+  "methods_description": "EEG signals were recorded from 15 healthy subjects (age 24-28 years) using a Grass 8-18-36 amplifier with DataTranslation DT9816 ADC. Six channels (F3, F4, C3, C4, P3, P4) were positioned according to the standard 10-20 montage at 1024 Hz sampling rate with online bandpass filtering (2-45 Hz) applied during acquisition. Subjects performed cue-based imagery tasks of 5 Spanish vowels and 6 directional commands in response to visual stimuli, with 4-second trial duration and 3-second imagery period. Data were preprocessed with bandpass filtering and artifact rejection.",
   "license": "other-open",
   "dataset_type": "derivative",
   "authors": {
@@ -13,31 +13,39 @@
   },
   "keywords": [
     {
+      "term": "imagined speech"
+    },
+    {
       "term": "EEG"
     },
     {
       "term": "motor imagery"
     },
     {
-      "term": "imagined speech"
+      "term": "Brain-Computer Interfaces",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D062207"
     },
     {
-      "term": "brain-computer interfaces"
-    },
-    {
-      "term": "signal processing"
-    },
-    {
-      "term": "Spanish language"
-    },
-    {
-      "term": "vowels"
+      "term": "Spanish vowels"
     },
     {
       "term": "directional commands"
     },
     {
+      "term": "Spanish"
+    },
+    {
       "term": "open access database"
+    },
+    {
+      "term": "BIDS"
+    },
+    {
+      "term": "derivative"
+    },
+    {
+      "term": "MOABB"
     }
   ],
   "related_identifiers": [
@@ -83,5 +91,5 @@
     ".yaml",
     ".yml"
   ],
-  "source_hash": "bccc2168ee7103f26cba68131372b05bf722b52dff112a96695b6f63c5cec8e1"
+  "source_hash": "cd0a1e066a88ec032eeee87aff7dd789c0be3e604db0712e62270875c2d79db6"
 }
