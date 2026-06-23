@@ -21,7 +21,7 @@
     "directional commands",
     "open access database"
   ],
-  "DatasetDOI": "doi:10.1117/12.2255697",
+  "DatasetDOI": "10.82901/nemar.nm000258",
   "GeneratedBy": [
     {
       "CodeURL": "https://github.com/NeuroTechX/moabb",
@@ -34,6 +34,9 @@
     {
       "DOI": "10.1117/12.2255697",
       "URL": "https://zenodo.org/records/19502780"
+    },
+    {
+      "DOI": "doi:10.1117/12.2255697"
     }
   ],
   "PublicationYear": 2017,
