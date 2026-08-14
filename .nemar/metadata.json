@@ -1,6 +1,6 @@
 {
   "version": "2.0",
-  "pipeline_stage": "enriched",
+  "pipeline_stage": "validated",
   "title": "Imagined Speech EEG database — Spanish vowels and commands (Pressel et al. 2016)",
   "description": "An open-access EEG dataset containing recordings from 15 healthy Spanish-speaking subjects performing imagined speech tasks. The dataset comprises 11 imagery classes (5 Spanish vowels and 6 directional commands) acquired using 6-channel EEG at 1024 Hz with preprocessed data (bandpass filtered 2-45 Hz). This resource supports brain-computer interface research and motor imagery classification studies.",
   "methods_description": "EEG signals were recorded from 15 healthy subjects (age 24-28 years) using a Grass 8-18-36 amplifier with DataTranslation DT9816 ADC. Six channels (F3, F4, C3, C4, P3, P4) were positioned according to the standard 10-20 montage at a sampling rate of 1024 Hz with online bandpass filtering (2-45 Hz). Subjects performed cue-based imagery tasks of 5 Spanish vowels and 6 directional commands in response to visual stimuli, with trial duration of 4 seconds and imagery period of 3 seconds. Data were preprocessed with bandpass filtering and artifact rejection applied.",
@@ -19,7 +19,9 @@
       "term": "EEG"
     },
     {
-      "term": "motor imagery"
+      "term": "motor imagery",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D009048"
     },
     {
       "term": "Brain-Computer Interfaces",
@@ -31,6 +33,12 @@
     },
     {
       "term": "directional commands"
+    },
+    {
+      "term": "BIDS"
+    },
+    {
+      "term": "MOABB"
     }
   ],
   "related_identifiers": [
@@ -77,5 +85,5 @@
     ".yaml",
     ".yml"
   ],
-  "source_hash": "d5d874faefc7b34836ff646e475e18aab560a2939b17395a2294d090617c5ce5"
+  "source_hash": "96ada1975b303a71302111bd5c06e07166107f2cf33f89e547e3f2eb3aad76a2"
 }
