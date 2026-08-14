@@ -1,0 +1,90 @@
+{
+ "dataset": "nm000258",
+ "moabb_class": "Pressel2016",
+ "moabb_version_used": "1.5.0dev0",
+ "retrieved": "2026-08-13",
+ "retrieved_by": "moabb.datasets.Pressel2016.data_path()",
+ "upstream_cache_root": "/expanse/lustre/scratch/bpinto/temp_project/sourcedata_staging/mne_data/MNE-pressel2016-data",
+ "license": "other-open",
+ "doi": "10.1117/12.2255697",
+ "naming": "upstream_filenames_restored",
+ "n_files": 15,
+ "total_bytes": 1771312564,
+ "files": [
+  {
+   "file": "S01/sub-01_eeg.mat",
+   "bytes": 130783392,
+   "sha256": "da7f5ca9dddb1118ad607a3c6c6b48d8e9a4c8fa97e7d7bbfb474969be35ba31"
+  },
+  {
+   "file": "S02/sub-02_eeg.mat",
+   "bytes": 115933153,
+   "sha256": "7be9ea585ead6c25092954574d92794bcd737cae542266c6abfac679321b13ad"
+  },
+  {
+   "file": "S03/sub-03_eeg.mat",
+   "bytes": 122024974,
+   "sha256": "28063f87cd3a1fd162ac264e5a54ae42712cd251d088eb06feabb3dfb20d02ab"
+  },
+  {
+   "file": "S04/sub-04_eeg.mat",
+   "bytes": 114373766,
+   "sha256": "1000c1800b4194769fc5edf1bdcd2f0b43d303bacb2406748b7f0a68959e6d65"
+  },
+  {
+   "file": "S05/sub-05_eeg.mat",
+   "bytes": 109314805,
+   "sha256": "dcfb3ade75d4735137cd375dcec6acaa1da05f94c87bb2734e36754ad4163378"
+  },
+  {
+   "file": "S06/sub-06_eeg.mat",
+   "bytes": 115698097,
+   "sha256": "be1b0eeb23290bf673047b8f3955e270ece5f2b627a339b6e308870862953b6b"
+  },
+  {
+   "file": "S07/sub-07_eeg.mat",
+   "bytes": 111156059,
+   "sha256": "60ca0bb16b6376c60cc19dd6611c18d5514735eff579f4842c047bc0ac52cbcf"
+  },
+  {
+   "file": "S08/sub-08_eeg.mat",
+   "bytes": 120539688,
+   "sha256": "833cf7046c8de55ea98e52fa9a126186344655dd4a77c42a2eec8e7577157b98"
+  },
+  {
+   "file": "S09/sub-09_eeg.mat",
+   "bytes": 122550390,
+   "sha256": "16fdc21d3930a4aff9fefb57ae78d38e757b2114530706b9ca43c0706ea65865"
+  },
+  {
+   "file": "S10/sub-10_eeg.mat",
+   "bytes": 119991945,
+   "sha256": "5dbdec8015aeb897bdaac049a1016e22417974d21db62ab445bdeeac52c82642"
+  },
+  {
+   "file": "S11/sub-11_eeg.mat",
+   "bytes": 119516555,
+   "sha256": "f647e6c4c76f77e72dfbc1d44377182850b775090b2b21a8e797117e9fcc15a5"
+  },
+  {
+   "file": "S12/sub-12_eeg.mat",
+   "bytes": 116598994,
+   "sha256": "e6f315323aa2e7b6a09e4bcfa7c554de9836acc7f8fe5b0d631ead9346f9b6a6"
+  },
+  {
+   "file": "S13/sub-13_eeg.mat",
+   "bytes": 118159153,
+   "sha256": "a63e05e080230dae58c5ad0ba11a231742aabc1ec0420a5c07b829aeebafd354"
+  },
+  {
+   "file": "S14/sub-14_eeg.mat",
+   "bytes": 121497447,
+   "sha256": "2cc1646393319d590acb735bb188da7ac6e0382739a36646f74b7dfc974c13ec"
+  },
+  {
+   "file": "S15/sub-15_eeg.mat",
+   "bytes": 113174146,
+   "sha256": "cbf08bd7cc88df74621390a932181982d2f6969da336d83a2b6bca3b7b51cd52"
+  }
+ ]
+}
