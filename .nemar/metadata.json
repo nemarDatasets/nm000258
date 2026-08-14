@@ -1,9 +1,9 @@
 {
   "version": "2.0",
-  "pipeline_stage": "validated",
+  "pipeline_stage": "enriched",
   "title": "Imagined Speech EEG database — Spanish vowels and commands (Pressel et al. 2016)",
   "description": "An open-access EEG dataset containing recordings from 15 healthy Spanish-speaking subjects performing imagined speech tasks. The dataset comprises 11 imagery classes (5 Spanish vowels and 6 directional commands) acquired using 6-channel EEG at 1024 Hz with preprocessed data (bandpass filtered 2-45 Hz). This resource supports brain-computer interface research and motor imagery classification studies.",
-  "methods_description": "EEG signals were recorded from 15 healthy subjects (age 24-28 years) using a Grass 8-18-36 amplifier with DataTranslation DT9816 ADC. Six channels (F3, F4, C3, C4, P3, P4) were positioned according to the standard 10-20 montage at 1024 Hz sampling rate with online bandpass filtering (2-45 Hz) applied during acquisition. Subjects performed cue-based imagery tasks of 5 Spanish vowels and 6 directional commands in response to visual stimuli, with 4-second trial duration and 3-second imagery period. Data were preprocessed with bandpass filtering and artifact rejection.",
+  "methods_description": "EEG signals were recorded from 15 healthy subjects (age 24-28 years) using a Grass 8-18-36 amplifier with DataTranslation DT9816 ADC. Six channels (F3, F4, C3, C4, P3, P4) were positioned according to the standard 10-20 montage at a sampling rate of 1024 Hz with online bandpass filtering (2-45 Hz). Subjects performed cue-based imagery tasks of 5 Spanish vowels and 6 directional commands in response to visual stimuli, with trial duration of 4 seconds and imagery period of 3 seconds. Data were preprocessed with bandpass filtering and artifact rejection applied.",
   "license": "other-open",
   "dataset_type": "derivative",
   "authors": {
@@ -31,21 +31,6 @@
     },
     {
       "term": "directional commands"
-    },
-    {
-      "term": "Spanish"
-    },
-    {
-      "term": "open access database"
-    },
-    {
-      "term": "BIDS"
-    },
-    {
-      "term": "derivative"
-    },
-    {
-      "term": "MOABB"
     }
   ],
   "related_identifiers": [
@@ -60,11 +45,6 @@
       "relation_type": "IsDescribedBy"
     },
     {
-      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=nm000258",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
       "identifier": "10.21105/joss.01896",
       "identifier_type": "DOI",
       "relation_type": "References"
@@ -73,6 +53,11 @@
       "identifier": "10.1038/s41597-019-0104-8",
       "identifier_type": "DOI",
       "relation_type": "References"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/nm000258",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
   ],
   "resource_type_general": "Dataset",
@@ -81,15 +66,16 @@
     "eeg"
   ],
   "sizes": [
-    "379.4 MB (16 files)"
+    "2.2 GB (31 files)"
   ],
   "formats": [
     ".edf",
     ".json",
+    ".mat",
     ".md",
     ".tsv",
     ".yaml",
     ".yml"
   ],
-  "source_hash": "cd0a1e066a88ec032eeee87aff7dd789c0be3e604db0712e62270875c2d79db6"
+  "source_hash": "d5d874faefc7b34836ff646e475e18aab560a2939b17395a2294d090617c5ce5"
 }
