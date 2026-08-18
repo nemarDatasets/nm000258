@@ -2,7 +2,7 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Imagined Speech EEG database — Spanish vowels and commands (Pressel et al. 2016)",
-  "description": "An open-access EEG dataset containing recordings from 15 healthy Spanish-speaking subjects performing imagined speech tasks. The dataset comprises 11 imagery classes (5 Spanish vowels and 6 directional commands) acquired using 6-channel EEG at 1024 Hz with preprocessed data (bandpass filtered 2-45 Hz). This resource supports brain-computer interface research and motor imagery classification studies.",
+  "description": "An open-access EEG dataset containing recordings from 15 healthy Spanish-speaking subjects performing imagined speech tasks. The dataset comprises 11 imagery classes (5 Spanish vowels and 6 directional commands) acquired using 6-channel EEG at 1024 Hz with preprocessed data (bandpass filtered 2-45 Hz). This BIDS-reformatted derivative is based on the original data described in Pressel et al. 2016 and supports brain-computer interface research and motor imagery classification studies.",
   "methods_description": "EEG signals were recorded from 15 healthy subjects (age 24-28 years) using a Grass 8-18-36 amplifier with DataTranslation DT9816 ADC. Six channels (F3, F4, C3, C4, P3, P4) were positioned according to the standard 10-20 montage at a sampling rate of 1024 Hz with online bandpass filtering (2-45 Hz). Subjects performed cue-based imagery tasks of 5 Spanish vowels and 6 directional commands in response to visual stimuli, with trial duration of 4 seconds and imagery period of 3 seconds. Data were preprocessed with bandpass filtering and artifact rejection applied.",
   "license": "other-open",
   "dataset_type": "derivative",
@@ -19,9 +19,7 @@
       "term": "EEG"
     },
     {
-      "term": "motor imagery",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D009048"
+      "term": "motor imagery"
     },
     {
       "term": "Brain-Computer Interfaces",
@@ -38,7 +36,10 @@
       "term": "BIDS"
     },
     {
-      "term": "MOABB"
+      "term": "open access database"
+    },
+    {
+      "term": "preprocessing"
     }
   ],
   "related_identifiers": [
@@ -85,5 +86,5 @@
     ".yaml",
     ".yml"
   ],
-  "source_hash": "96ada1975b303a71302111bd5c06e07166107f2cf33f89e547e3f2eb3aad76a2"
+  "source_hash": "a42ee664e0a4a5e5b7017263e0731bcfb6140a568fa8feecb25f7e9b9ca7d412"
 }
